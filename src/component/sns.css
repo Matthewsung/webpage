@@ -1,0 +1,47 @@
+.sns{
+  width: 100%;
+  padding: 100px 0 0;
+  background: #eff4fe;
+ 
+}
+.sns .w_1440{
+  overflow: hidden;
+}
+.s_title{
+  width: 40%;
+  float: left;
+}
+.sns .more{
+  position: absolute;
+  left: 5%;
+  top: 55%;
+}
+
+.s_slide_box{
+  width: 60%;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20%;
+
+}
+.s_slide_outer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: left 0.5s;
+}
+.s_slide{
+  width: 230px;
+  height: 230px;
+  margin-top: 30px;
+  border-radius: 40px;
+  transition: transform 0.3s;
+}
+.s_slide:hover{
+  transform: translateY(-30px) ;
+}
+.s_slide:last-child{
+  margin-right: 0;
+}
