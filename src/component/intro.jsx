@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './intro.css'
 const Intro = ()=>{
-  const [space, setSpace] = useState('img/space_01.png')
+  const [space, setSpace] = useState('webpage/img/space_01.png')
 const onclickSpace = (e)=>{
   const intro_row = document.querySelectorAll('.intro_row')
   if(e.target.hasAttribute('data-src')){
@@ -21,20 +21,20 @@ const onclickSpace = (e)=>{
       <div className="intro_content">
         <div className="i_L"onClick={onclickSpace}>
           <div className="first_floor">
-            <div className="intro_row" data-src="img/space_01.png">책놀이터</div>
-            <div className="intro_row" data-src="img/space_02.png" >생활 수유실</div>
+            <div className="intro_row" data-src="webpage/img/space_01.png">책놀이터</div>
+            <div className="intro_row" data-src="webpage/img/space_02.png" >생활 수유실</div>
           </div>
           <div className="second_floor">
-            <div className="intro_row" data-src="img/space_03.png">동네부엌</div>
-            <div className="intro_row" data-src="img/space_04.png">생생 수유실</div>
-            <div className="intro_row" data-src="img/space_05.png">마주침 공간1</div>
-            <div className="intro_row" data-src="img/space_06.png">마주침 공간2</div>
+            <div className="intro_row" data-src="webpage/img/space_03.png">동네부엌</div>
+            <div className="intro_row" data-src="webpage/img/space_04.png">생생 수유실</div>
+            <div className="intro_row" data-src="webpage/img/space_05.png">마주침 공간1</div>
+            <div className="intro_row" data-src="webpage/img/space_06.png">마주침 공간2</div>
           </div>
           <div className="third_floor">
-            <div className="intro_row" data-src="img/space_11.png">한뼘전시</div>
-            <div className="intro_row" data-src="img/space_12.png">무아지경</div>
-            <div className="intro_row" data-src="img/space_13.png">생생살롱1</div>
-            <div className="intro_row" data-src="img/space_14.png">생생살롱2</div>
+            <div className="intro_row" data-src="webpage/img/space_11.png">한뼘전시</div>
+            <div className="intro_row" data-src="webpage/img/space_12.png">무아지경</div>
+            <div className="intro_row" data-src="webpage/img/space_13.png">생생살롱1</div>
+            <div className="intro_row" data-src="webpage/img/space_14.png">생생살롱2</div>
           </div>
         </div>
         <div className="i_R">
@@ -49,7 +49,7 @@ const onclickSpace = (e)=>{
         <div>내가 사는 지역 생활문화공간 바로 찾기</div>
       </div>
       <div className="s_R">
-        <img src="img/our-center-img.svg" alt="" />
+        <img src="webpage/img/our-center-img.svg" alt="" />
         <div className="i_more">MORE</div>
       </div>
     </div>

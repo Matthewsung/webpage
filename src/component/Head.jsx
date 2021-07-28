@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../index.css'
-import './head.css'
+import './Head.css'
 const Head = () =>{
 
   const onMouseEnterMenu = ()=>{
@@ -22,9 +23,9 @@ const Head = () =>{
       <div className="header">
         <div className="w_1440">
           <div className="logo">
-            {/* <a href="#"> */}
-              <img src="img/main-logo.svg" alt="로고" />
-            {/* </a> */}
+            <Link to="/webpage">
+              <img src="webpage/img/main-logo.svg" alt="로고" />
+            </Link>
           </div>
           <ul className="menu_ul" onMouseEnter={onMouseEnterMenu} onMouseLeave={onMouseLeaveMenu}>
             <li className="menu_li">경기생활문화센터</li>

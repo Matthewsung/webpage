@@ -39,7 +39,7 @@ const Banner = () =>{
             </div>
           </div>
           <div className="b_img">
-            <img src="./img/banner_2.gif" alt="" />
+            <img src="webpage/img/banner_2.gif" alt="" />
           </div>
         </div>
         <div className="banner" style={{opacity:"0"}}>
@@ -50,7 +50,7 @@ const Banner = () =>{
             </div>
           </div>
           <div className="b_img">
-            <img src="./img/banner_3.gif" alt="" />
+            <img src="webpage/img/banner_3.gif" alt="" />
           </div>
         </div>
         <div className="banner" style={{opacity:"0"}}>
@@ -61,7 +61,7 @@ const Banner = () =>{
             </div>
           </div>
           <div className="b_img">
-            <img src="./img/banner_1.gif" alt="" />
+            <img src="webpage/img/banner_1.gif" alt="" />
           </div>
         </div>
         <div className="indi_box">

@@ -11,7 +11,7 @@ const Notice_content = ({item})=>{
     <div className="n_bot">
       <div className="n_date">{item.date}</div>
       <div className="n_more">
-        <img src="img/add.png" alt="더보기" />
+        <img src="webpage/img/add.png" alt="더보기" />
       </div>
     </div>
   </div>

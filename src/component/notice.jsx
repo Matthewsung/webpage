@@ -32,10 +32,6 @@ const Notice = () =>{
         <h1 className="n_title">새로운 소식</h1>
         <div className="n_content_box">
           {item.map((v,i)=> <Notice_content key={i+v}item={item[i]}/>)}
-          
-          
-
-
         </div>
       </div>
     </div>
