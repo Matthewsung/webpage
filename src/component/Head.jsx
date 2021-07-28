@@ -24,7 +24,7 @@ const Head = () =>{
         <div className="w_1440">
           <div className="logo">
             <Link to="/webpage">
-              <img src="webpage/img/main-logo.svg" alt="로고" />
+              <img src="/webpage/img/main-logo.svg" alt="로고" />
             </Link>
           </div>
           <ul className="menu_ul" onMouseEnter={onMouseEnterMenu} onMouseLeave={onMouseLeaveMenu}>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './sns.css'
 import Sns_slide from './sns_slide'
 const Sns = ()=>{
-  const [snsSlide,setSnsSlide] = useState(["webpage/img/sns1.jpg","webpage/img/sns2.jpg","webpage/img/sns3.jpg","webpage/img/sns4.jpg","webpage/img/sns5.jpg","webpage/img/sns6.jpg","webpage/img/sns7.jpg","webpage/img/sns8.jpg","webpage/img/sns9.jpg",])
+  const [snsSlide,setSnsSlide] = useState(["img/sns1.jpg","img/sns2.jpg","img/sns3.jpg","img/sns4.jpg","img/sns5.jpg","img/sns6.jpg","img/sns7.jpg","img/sns8.jpg","img/sns9.jpg",])
   let s_interval;
   let s_check = true;
   useEffect(()=>{

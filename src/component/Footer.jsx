@@ -25,16 +25,16 @@ const Footer = () =>{
           </ul>
           <ul className="f_top_R">
             <li className="f_icon">
-              <img src="webpage/img/facebook_b.png" alt="페이스북" />
+              <img src="img/facebook_b.png" alt="페이스북" />
             </li>
             <li className="f_icon">
-              <img src="webpage/img/facebook_b.png" alt="페이스북" />
+              <img src="img/facebook_b.png" alt="페이스북" />
             </li>
             <li className="f_icon">
-              <img src="webpage/img/facebook_b.png" alt="페이스북" />
+              <img src="img/facebook_b.png" alt="페이스북" />
             </li>
             <li className="f_icon">
-              <img src="webpage/img/facebook_b.png" alt="페이스북" />
+              <img src="img/facebook_b.png" alt="페이스북" />
             </li>
             <li className="f_tap" onClick={onClickF_Tap} onMouseLeave={onMouseLeaveF_tap}>
                 <div >
@@ -48,7 +48,7 @@ const Footer = () =>{
         </div>
         <div className="f_bot">
           <div className="f_bot_L">
-            <img src="webpage/img/main-logo-gray.svg" alt="" />
+            <img src="img/main-logo-gray.svg" alt="" />
           </div>
           <div className="f_bot_R">
             <p>경기문화재단 경기생활문화센터 (16614) 경기도 수원시 권선구 서둔로 166 생생1990 / 대표전화 031-231-0540</p>

@@ -4,7 +4,7 @@ import Culture_slide from './culture_slide';
 const url=[
   {
     id:1,
-    url:"webpage/img/slide_1.png",
+    url:"img/slide_1.png",
     side1:"교육",
     side2:"안산",
     title: "2021 HAPPY LIFE HAPPY MINE ",
@@ -13,7 +13,7 @@ const url=[
   },
   {
     id:2,
-    url:"webpage/img/slide_2.jpg",
+    url:"img/slide_2.jpg",
     side1:"기획",
     side2:"성남",
     title: "은밀한 글쓰기",
@@ -22,7 +22,7 @@ const url=[
   },
   {
     id:3,
-    url:"webpage/img/slide_3.jpg",
+    url:"img/slide_3.jpg",
     side1:"공연/전시",
     side2:"군포",
     title: "2021 군포아트마켓 수공예품 전시",
@@ -31,7 +31,7 @@ const url=[
   },
   {
     id:4,
-    url:"webpage/img/slide_4.jpg",
+    url:"img/slide_4.jpg",
     side1:"기획",
     side2:"의왕",
     title: "가족의 모양",
@@ -73,7 +73,7 @@ const Culture = ()=>{
       <div>나와 꼭 맞는 생활문화를 검색해 보세요</div>
     </div>
     <div className="c_mid">
-      <div className="mid_L" onClick={onClickLeft}><img src="webpage/img/arrow_left.svg" alt="" /></div>
+      <div className="mid_L" onClick={onClickLeft}><img src="img/arrow_left.svg" alt="" /></div>
       <div className="mid_C">
         <select>
           <option value="구분">구분</option>
@@ -90,7 +90,7 @@ const Culture = ()=>{
           <option value="연극">연극</option>
         </select>
       </div>
-      <div className="mid_R" onClick={onClickRight}><img src="webpage/img/arrow_right.svg" alt="" /></div>
+      <div className="mid_R" onClick={onClickRight}><img src="img/arrow_right.svg" alt="" /></div>
     </div>
     <div className="c_slide_box">
       {arr.map((v,i)=> <Culture_slide key={i} index={i} url={url}/>)}

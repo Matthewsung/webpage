@@ -8,7 +8,7 @@ const data = [
     title:'나룰 수채화 드로잉',
     detail:'하남문화예술회관 체험실',
     date:'2021.01.31 ~ 2021.12.31',
-    url:'webpage/img/slide1.png'
+    url:'img/slide1.png'
   },
   {
     id:2,
@@ -16,7 +16,7 @@ const data = [
     title:'기타사랑',
     detail:'하남문화예술회관 강의실',
     date:'2021.01.01 ~ 2021.12.31',
-    url:'webpage/img/slide2.png'
+    url:'img/slide2.png'
   },
   {
     id:3,
@@ -24,7 +24,7 @@ const data = [
     title:'미사누그 드로잉',
     detail:'하남문화예술회관 체험실',
     date:'2021.01.31 ~ 2021.12.31',
-    url:'webpage/img/slide3.png'
+    url:'img/slide3.png'
   },
   {
     id:4,
@@ -32,7 +32,7 @@ const data = [
     title:'우쿨LOVE',
     detail:'하남문화예술회관 연습실',
     date:'2021.01.01 ~ 2021.12.31',
-    url:'webpage/img/slide4.png'
+    url:'img/slide4.png'
   },
   {
     id:5,
@@ -40,7 +40,7 @@ const data = [
     title:'행복한 합창단',
     detail:'하남문화예술회관 연습실',
     date:'2021.01.01 ~ 2021.12.31',
-    url:'webpage/img/slide5.png'
+    url:'img/slide5.png'
   },
   {
     id:6,
@@ -48,7 +48,7 @@ const data = [
     title:'벨칸토성악 동호회',
     detail:'하남문화예술회관 연습실',
     date:'2021.01.31 ~ 2021.12.31',
-    url:'webpage/img/slide6.png'
+    url:'img/slide6.png'
   },
   
 ]
